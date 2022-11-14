@@ -31,21 +31,21 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between dark:text-white'>
             <h1 className='text-xl font-burtons'>HAFIZUDDEEN</h1>
-            <ul className="flex items-center space-x-7">
+            <ul className="flex items-center space-x-3">
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl'
                   onClick={() => setDarkMode(!darkMode)} />
               </li>
-              <li>
+              {/* <li>
                 <FaBloggerB className='cursor-pointer text-2xl' />
-              </li>
+              </li> */}
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md" href="#">
                   Resume</a>
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Khairul Hafizuddeen</h2>
             <h3 className='text-2xl py-2 dark:text-white md:text-3xl'>Backend Developer and Devops</h3>
             <p className='text md py-5 leading-8 text-gray-800  dark:text-gray-200 md:text-xl max-w-lg mx-auto'>
